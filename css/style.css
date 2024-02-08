@@ -407,7 +407,19 @@ label{
 	padding: 0px 30px 0px 0px;
 }
 
-
+.up i {
+    color: #d3d3d3;
+    padding: 10px;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    background-color: #193d549a;
+    padding: 0;
+    width: fit-content;
+    border-radius: 50%;
+    font-size: 2rem;
+    z-index: 100;
+}
 
 @media screen and (max-width: 768px) {
 	#content {
