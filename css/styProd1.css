@@ -299,3 +299,127 @@ div.vistas > .vista1:hover ~ .imgPpal8{
     width: 100%;
     box-shadow: 10px 10px 10px gray;
 }
+.imgPpal9{    
+    background: url('../images/prod9/pantalon1.webp') no-repeat center center;
+    background-size: cover;
+}
+
+div.vistas > .vista1:hover ~ .imgPpal9{
+    background: url('../images/prod9/vista1.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+    clip-path: circle(150% at top right);
+    transition: clip-path 0.6s;
+}
+.vistas > .vista2:hover ~ .imgPpal9{
+    background: url('../images/prod9/vista2.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista3:hover ~ .imgPpal9{
+    background: url('../images/prod9/vista3.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista4:hover ~ .imgPpal9{
+    background: url('../images/prod9/vista4.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.imgPpal10{    
+    background: url('../images/prod10/pantalon2.webp') no-repeat center center;
+    background-size: cover;
+}
+
+div.vistas > .vista1:hover ~ .imgPpal10{
+    background: url('../images/prod10/vista1.avif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+    clip-path: circle(150% at top right);
+    transition: clip-path 0.6s;
+}
+.vistas > .vista2:hover ~ .imgPpal10{
+    background: url('../images/prod10/vista2.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista3:hover ~ .imgPpal10{
+    background: url('../images/prod10/vista3.avif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista4:hover ~ .imgPpal10{
+    background: url('../images/prod10/vista4.avif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.imgPpal11{    
+    background: url('../images/prod11/pantalon3.webp') no-repeat center center;
+    background-size: cover;
+}
+
+div.vistas > .vista1:hover ~ .imgPpal11{
+    background: url('../images/prod11/vista1.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+    clip-path: circle(150% at top right);
+    transition: clip-path 0.6s;
+}
+.vistas > .vista2:hover ~ .imgPpal11{
+    background: url('../images/prod11/vista2.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista3:hover ~ .imgPpal11{
+    background: url('../images/prod11/vista3.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista4:hover ~ .imgPpal11{
+    background: url('../images/prod11/vista4.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.imgPpal12{    
+    background: url('../images/prod12/pantalon4.webp') no-repeat center center;
+    background-size: cover;
+}
+
+div.vistas > .vista1:hover ~ .imgPpal12{
+    background: url('../images/prod12/vista1.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+    clip-path: circle(150% at top right);
+    transition: clip-path 0.6s;
+}
+.vistas > .vista2:hover ~ .imgPpal12{
+    background: url('../images/prod12/vista2.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista3:hover ~ .imgPpal12{
+    background: url('../images/prod12/vista3.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista4:hover ~ .imgPpal12{
+    background: url('../images/prod12/vista4.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}

@@ -267,10 +267,6 @@ main .card .head p {
 	font-size: 14px;
 }
 
-/* main .card .label {
-	font-size: 14px;
-	font-weight: 700;
-} */
 main .data {
 	display: flex;
 	grid-gap: 20px;
@@ -342,7 +338,23 @@ main .info-data .camisa3{
 main .info-data .camisa4{
 	background: url('../images/prod8/camisa4.webp') no-repeat center center;
 	background-size: contain;
-	}
+}
+main .info-data .pantalon1{
+	background: url('../images/prod9/pantalon1.webp') no-repeat center center;
+	background-size: contain;
+}
+main .info-data .pantalon2{
+	background: url('../images/prod10/pantalon2.webp') no-repeat center center;
+	background-size: contain;
+}
+main .info-data .pantalon3{
+	background: url('../images/prod11/pantalon3.webp') no-repeat center center;
+	background-size: contain;
+}
+main .info-data .pantalon4{
+	background: url('../images/prod12/pantalon4.webp') no-repeat center center;
+	background-size: contain;
+}
 .boton {
     display: inline-block;
     text-decoration: none;
@@ -372,7 +384,19 @@ main .info-data .camisa4{
 .mega:has(#abrigo:checked) .card2, .card3{
 	display: none;
 }
+.mega:has(#abrigo:checked) .card3{
+	display: none;
+}
 .mega:has(#camisa:checked) .card1, .card3{
+	display: none;
+}
+.mega:has(#camisa:checked) .card3{
+	display: none;
+}
+.mega:has(#pantalon:checked) .card1, .card2{
+	display: none;
+}
+.mega:has(#pantalon:checked) .card2{
 	display: none;
 }
 
