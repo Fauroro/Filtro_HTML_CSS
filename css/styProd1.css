@@ -1,0 +1,100 @@
+section.preview{
+    margin: 20px;
+}
+div.container{
+    align-items: center;
+    padding-top: 0;
+    gap: 50px;
+    padding: 10px 30px;
+}
+div.content{
+    width: fit-content;
+    font-size: 1.7rem;
+    padding: 0;
+    margin-top: 0;
+}
+section.preview p{
+    color: #000;
+    font-weight: 100px;
+}
+div.imgPpal{
+    background: url('../images/abrigo1.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+    margin: 20px;
+    grid-column: 2;
+    grid-row: 1/span 4;
+}
+div.vistas{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(4,1fr);
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+}
+div.vistas img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+	transition: var(---a) .3s ease;
+}
+div.vistas > .vista1:hover ~ .imgPpal1{
+    background: url('../images/abrigo1.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+    clip-path: circle(150% at top right);
+    transition: clip-path 0.6s;
+}
+.vistas > .vista2:hover ~ .imgPpal1{
+    background: url('/images/abrigo1.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista3:hover ~ .imgPpal1{
+    background: url('../images/abrigo1.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista4:hover ~ .imgPpal1{
+    background: url('../images/abrigo1.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.imgPpal4{
+    background: url('../images/Cat1/producto4/prod4.png') no-repeat center center;
+    background-size: cover;
+}
+.vistas > .vista1:hover ~ .imgPpal4{
+    background: url('../images/Cat1/producto4/vista1.jpg') no-repeat center center;
+    background-size: cover;
+}
+.vistas > .vista2:hover ~ .imgPpal4{
+    background: url('../images/Cat1/producto4/vista2.jpg') no-repeat center center;
+    background-size: cover;
+}
+.vistas > .vista3:hover ~ .imgPpal4{
+    background: url('../images/Cat1/producto4/vista3.jpg') no-repeat center center;
+    background-size: cover;
+}
+.vistas > .vista4:hover ~ .imgPpal4{
+    background: url('../images/Cat1/producto4/vista4.jpg') no-repeat center center;
+    background-size: cover;
+}
+.detalles {
+    display: flex;
+    justify-content: center;
+}
+.detalles div{
+    width: 80%;
+    font-size: 1.3rem;
+}
+.detalles li{
+    list-style: inside;
+}
