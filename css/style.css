@@ -185,7 +185,7 @@ nav .divider {
 	width: 1px;
 	background: var(--grey);
 	height: 12px;
-	display: block;
+	display: block;;
 }
 nav .profile {
 	position: relative;
@@ -340,7 +340,17 @@ main .info-data .camisa1{
 .boton:hover{
     transform: scale(1.05);
 }
-
+.botonNav {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;  
+	border-radius: 10px;  
+}
+.botonNav:hover{
+    transform: scale(1.05);
+	opacity: 0.80;
+}
 
 @media screen and (max-width: 768px) {
 	#content {
