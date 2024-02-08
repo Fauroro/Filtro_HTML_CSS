@@ -49,6 +49,8 @@ div.vistas img{
     height: 100%;
     cursor: pointer;
 }
+
+/* Modificacion de todas las vistas de las imagenes */
 .imgPpal1{    
     background: url('../images/prod1/abrigo1.webp') no-repeat center center;
     background-size: cover;
@@ -58,8 +60,6 @@ div.vistas > .vista1:hover ~ .imgPpal1{
     background-size: cover;
     width: 100%;
     box-shadow: 10px 10px 10px gray;
-    clip-path: circle(150% at top right);
-    transition: clip-path 0.6s;
 }
 .vistas > .vista2:hover ~ .imgPpal1{
     background: url('../images/prod1/vista2.avif') no-repeat center center;
