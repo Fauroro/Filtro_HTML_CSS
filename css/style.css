@@ -102,6 +102,7 @@ li {
 }
 #sidebar .side-menu a {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	font-size: 14px;
 	color: var(--dark);
@@ -294,7 +295,9 @@ main .content-data .head h3 {
 	font-size: 20px;
 	font-weight: 600;
 }
-
+label{
+	cursor: pointer;
+}
 /* MAIN */
 /* CONTENT */
 main .info-data .head div{
@@ -325,9 +328,21 @@ main .info-data .abrigo4{
 	background-size: contain;
 }
 main .info-data .camisa1{
-	background: url('../images/camisa1.png') no-repeat center center;
+	background: url('../images/prod5/camisa1.webp') no-repeat center center;
 	background-size: contain;
 }
+main .info-data .camisa2{
+	background: url('../images/prod6/camisa2.webp') no-repeat center center;
+	background-size: contain;
+}
+main .info-data .camisa3{
+	background: url('../images/prod7/camisa3.webp') no-repeat center center;
+	background-size: contain;
+}
+main .info-data .camisa4{
+	background: url('../images/prod8/camisa4.webp') no-repeat center center;
+	background-size: contain;
+	}
 .boton {
     display: inline-block;
     text-decoration: none;
@@ -351,6 +366,24 @@ main .info-data .camisa1{
     transform: scale(1.05);
 	opacity: 0.80;
 }
+#todo{
+	display: none;
+}
+.mega:has(#abrigo:checked) .card2, .card3{
+	display: none;
+}
+.mega:has(#camisa:checked) .card1, .card3{
+	display: none;
+}
+
+.mega:has(#todo:checked) .card1, .card2, .card3{
+	display: block;
+}
+label{
+	padding: 0px 30px 0px 0px;
+}
+
+
 
 @media screen and (max-width: 768px) {
 	#content {
