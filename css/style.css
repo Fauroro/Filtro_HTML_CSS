@@ -309,15 +309,19 @@ main .info-data .ropa{
 	min-height:200px;
 }
 main .info-data .abrigo1{
-	background: url('../images/abrigo1.png') no-repeat center center;
+	background: url('../images/prod1/abrigo1.webp') no-repeat center center;
 	background-size: contain;
 }
 main .info-data .abrigo2{
-	background: url('../images/abrigo2.png') no-repeat center center;
+	background: url('../images/prod2/abrigo2.webp') no-repeat center center;
 	background-size: contain;
 }
 main .info-data .abrigo3{
-	background: url('../images/abrigo3.png') no-repeat center center;
+	background: url('../images/prod3/abrigo3.webp') no-repeat center center;
+	background-size: contain;
+}
+main .info-data .abrigo4{
+	background: url('../images/prod4/abrigo4.webp') no-repeat center center;
 	background-size: contain;
 }
 main .info-data .camisa1{

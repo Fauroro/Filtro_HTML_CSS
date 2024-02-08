@@ -2,6 +2,10 @@ section.preview{
     margin: 20px;
 }
 div.container{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding-top: 0;
     gap: 50px;
@@ -15,11 +19,10 @@ div.content{
 }
 section.preview p{
     color: #000;
+    text-align: justify;
     font-weight: 100px;
 }
 div.imgPpal{
-    background: url('../images/abrigo1.png') no-repeat center center;
-    background-size: cover;
     width: 100%;
     padding: 0;
     margin: 20px;
@@ -31,9 +34,10 @@ div.vistas{
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: repeat(4,1fr);
+    justify-content: center;
     gap: 15px;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
 }
 div.vistas img{
     width: 100%;
@@ -41,8 +45,12 @@ div.vistas img{
     cursor: pointer;
 	transition: var(---a) .3s ease;
 }
+.imgPpal1{    
+    background: url('../images/prod1/abrigo1.webp') no-repeat center center;
+    background-size: cover;
+}
 div.vistas > .vista1:hover ~ .imgPpal1{
-    background: url('../images/abrigo1.png') no-repeat center center;
+    background: url('../images/prod1/vista1.avif') no-repeat center center;
     background-size: cover;
     width: 100%;
     box-shadow: 10px 10px 10px gray;
@@ -50,51 +58,116 @@ div.vistas > .vista1:hover ~ .imgPpal1{
     transition: clip-path 0.6s;
 }
 .vistas > .vista2:hover ~ .imgPpal1{
-    background: url('/images/abrigo1.png') no-repeat center center;
+    background: url('/images/prod1/vista2.avif') no-repeat center center;
     background-size: cover;
     width: 100%;
     box-shadow: 10px 10px 10px gray;
 }
 .vistas > .vista3:hover ~ .imgPpal1{
-    background: url('../images/abrigo1.png') no-repeat center center;
+    background: url('../images/prod1/vista3.avif') no-repeat center center;
     background-size: cover;
     width: 100%;
     box-shadow: 10px 10px 10px gray;
 }
 .vistas > .vista4:hover ~ .imgPpal1{
-    background: url('../images/abrigo1.png') no-repeat center center;
+    background: url('../images/prod1/vista4.avif') no-repeat center center;
     background-size: cover;
     width: 100%;
     box-shadow: 10px 10px 10px gray;
 }
-.imgPpal4{
-    background: url('../images/Cat1/producto4/prod4.png') no-repeat center center;
+
+.imgPpal2{    
+    background: url('../images/prod2/abrigo2.webp') no-repeat center center;
     background-size: cover;
 }
-.vistas > .vista1:hover ~ .imgPpal4{
-    background: url('../images/Cat1/producto4/vista1.jpg') no-repeat center center;
+
+div.vistas > .vista1:hover ~ .imgPpal2{
+    background: url('../images/prod2/vista1.webp') no-repeat center center;
     background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+    clip-path: circle(150% at top right);
+    transition: clip-path 0.6s;
+}
+.vistas > .vista2:hover ~ .imgPpal2{
+    background: url('../images/prod2/vista2.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista3:hover ~ .imgPpal2{
+    background: url('../images/prod2/vista3.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista4:hover ~ .imgPpal2{
+    background: url('../images/prod2/vista4.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.imgPpal3{    
+    background: url('../images/prod3/abrigo3.webp') no-repeat center center;
+    background-size: cover;
+}
+
+div.vistas > .vista1:hover ~ .imgPpal3{
+    background: url('../images/prod3/vista1.avif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+    clip-path: circle(150% at top right);
+    transition: clip-path 0.6s;
+}
+.vistas > .vista2:hover ~ .imgPpal3{
+    background: url('../images/prod3/vista2.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista3:hover ~ .imgPpal3{
+    background: url('../images/prod3/vista3.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+.vistas > .vista4:hover ~ .imgPpal3{
+    background: url('../images/prod3/vista4.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.imgPpal4{    
+    background: url('../images/prod4/abrigo4.webp') no-repeat center center;
+    background-size: cover;
+}
+
+div.vistas > .vista1:hover ~ .imgPpal4{
+    background: url('../images/prod4/vista1.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
+    clip-path: circle(150% at top right);
+    transition: clip-path 0.6s;
 }
 .vistas > .vista2:hover ~ .imgPpal4{
-    background: url('../images/Cat1/producto4/vista2.jpg') no-repeat center center;
+    background: url('../images/prod4/vista2.webp') no-repeat center center;
     background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
 }
 .vistas > .vista3:hover ~ .imgPpal4{
-    background: url('../images/Cat1/producto4/vista3.jpg') no-repeat center center;
+    background: url('../images/prod4/vista3.webp') no-repeat center center;
     background-size: cover;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
 }
 .vistas > .vista4:hover ~ .imgPpal4{
-    background: url('../images/Cat1/producto4/vista4.jpg') no-repeat center center;
+    background: url('../images/prod4/vista4.webp') no-repeat center center;
     background-size: cover;
-}
-.detalles {
-    display: flex;
-    justify-content: center;
-}
-.detalles div{
-    width: 80%;
-    font-size: 1.3rem;
-}
-.detalles li{
-    list-style: inside;
+    width: 100%;
+    box-shadow: 10px 10px 10px gray;
 }
